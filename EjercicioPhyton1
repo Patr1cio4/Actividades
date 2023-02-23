@@ -1,0 +1,26 @@
+EJERCICIO 1
+x= "Ana"
+y= "Juan"
+z= "Pedro"
+nombre= input("Por favor ingresa tu nombre: ")
+if nombre != x: 
+    if nombre != y: 
+      if nombre != z: 
+        print ("Saludos ", nombre)
+      else:
+          print("No te puedo saludar:(")
+    else:
+      print("No te puedo saludar:(")
+else:
+  print("No te puedo saludar:(")
+ 
+ 
+ 
+ EJERCICIO 2
+  lista = []
+x =input("Terricola hazme el favor de ingresar cualquier dato (cuando quieras parar la lista dale enter): ")
+while x != "":
+  lista.append(x)
+  x =input("Terricola hazme el favor de ingresar cualquier dato (cuando quieras parar la lista dale enter): ") 
+lista.reverse()
+print(lista)
